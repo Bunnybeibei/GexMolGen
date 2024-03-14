@@ -40,12 +40,13 @@ you can simply run `python server.py` in the command line to display the interfa
 
 We currently have two integrated functions: *Standard* and *Screen*.
 
-- *Standard*: Generates a specified number of drugs based on gene transcription profile data.
-- *Screen*: Allows you to input reference molecules and similarity calculation methods. It will output the generated results in descending order of similarity to the reference molecules
+- *Standard*: This function generates a specified number of drugs based on gene transcription profile data.
+- *Screen*: This function allows you to input reference molecules and similarity calculation methods. It will output the generated results in descending order of similarity to the reference molecules
+- *Retrieving*: Retrieval of potential small molecules by providing gene expression profiles and the molecular database you want to search. 🆕
 
 We provide experimental data for *CTSK* (*server_test_ctl.csv and server_test_pert.csv*) 
 and reference inhibitors (*CTSK_ref.csv*). You can use the *Screen* function to verify the Result 2.3 in our paper.
-![demo](https://github.com/Bunnybeibei/GexMolGen./assets/77224376/06829128-38f0-456f-98aa-3360de4f523c)
+![demo](https://github.com/Bunnybeibei/GexMolGen/assets/77224376/b037b93a-5653-44fc-8c5a-82ae03dbf6b3)
 
 ## To-do-list
 - [ ] Upload video version explanation of the demo
