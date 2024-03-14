@@ -363,7 +363,7 @@ class ModelLoader(object):
 
         return model
 
-    def DrugLoader(self, drug_vocab_file):
+    def DrugLoader(self, drug_vocab_file, decoder_path=None):
 
         # Basic configuration
         parser = argparse.ArgumentParser()
@@ -400,7 +400,10 @@ class ModelLoader(object):
                 print(f"Loading all model params from {self.drugModel_file}")
             except:
                 model_dict = drugModel.state_dict()
-                pretrained_dict = torch.load(self.drugModel_file,map_location='cuda')[0]
+                if self.drugModel_file.split('.')[-1]=='pt':
+                    pretrained_dict = torch.load(self.drugModel_file, map_location='cuda')
+                else:
+                    pretrained_dict = torch.load(self.drugModel_file,map_location='cuda')[0]
                 pretrained_dict = {
                     k: v
                     for k, v in pretrained_dict.items()
@@ -440,7 +443,21 @@ def Genetic_Encoder(model, \
 
     total_embs = model.bn(total_embs.permute(0, 2, 1)).permute(0, 2, 1)
 
+    genetic_embs = model.transformer_encoder(
+        total_embs, src_key_padding_mask=src_key_padding_mask
+    )
+
+    output_10 = model.transformer_encoder10(
+        genetic_embs, src_key_padding_mask=src_key_padding_mask
+    )
+    output_100 = model.transformer_encoder100(
+        output_10, src_key_padding_mask=src_key_padding_mask
+    )
+    output_1000 = model.transformer_encoder1000(
+        output_100, src_key_padding_mask=src_key_padding_mask
+    )
+
     output = model.transformer_encoder_contrast(
         total_embs, src_key_padding_mask=src_key_padding_mask
     )
-    return output
+    return output, output_10, output_100, output_1000
