@@ -44,8 +44,8 @@ We currently have two integrated functions: *Standard* and *Screen*.
 - *Screen*: This function allows you to input reference molecules and similarity calculation methods. It will output the generated results in descending order of similarity to the reference molecules
 - *Retrieving*: Retrieval of potential small molecules by providing gene expression profiles and the molecular database you want to search. 🆕
 
-We provide experimental data for *CTSK* (*server_test_ctl.csv and server_test_pert.csv*) 
-and reference inhibitors (*CTSK_ref.csv*). You can use the *Screen* function to verify the Result 2.3 in our paper.
+We provide experimental data for *AKT2* (*server_test_ctl.csv and server_test_pert.csv*) 
+and reference inhibitors (*AKT2_ref.csv*). You can use the *Screen* function to verify the Result 2.3 in our paper.
 ![demo](https://github.com/Bunnybeibei/GexMolGen/assets/77224376/b037b93a-5653-44fc-8c5a-82ae03dbf6b3)
 
 ## To-do-list
