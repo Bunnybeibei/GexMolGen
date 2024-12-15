@@ -50,11 +50,45 @@ and reference inhibitors (*AKT2_ref.csv*). You can use the *Screen* function to 
 
 ## To-do-list
 - [ ] Upload video version explanation of the demo
-- [ ] Upload the complete datase
+- [x] Upload the complete dataset
 - [ ] Upload training code
+
+## Data Availability
+
+The data underlying this article are accessible within the article itself and its supplementary online materials.
+
+You can find the curated data at the following link: 
+
+- [Curated Data](https://zenodo.org/records/11100665?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTcxNDYyNzUzOSwiZXhwIjoxNzk4Njc1MTk5fQ.eyJpZCI6IjM3ZmFkNGU4LWViMDYtNGNkNy1iOTc4LWI0ZTBkMDk2OWI0YyIsImRhdGEiOnt9LCJyYW5kb20iOiJhOGJjZDM5NWFkY2ZiNDAwNjAzYzIwMTg2ODNjYWI2NCJ9.dADyS-0PBsFKr_z1yDdcDnoGoY5PFOSbnYtt6aIz4RLoNxykoIQffAlzQDPbFgqnZJmp7PmjNXPCXHkDMuZHuA).
+
+The raw data can be downloaded from the following sources:
+
+- [CLUE Data](https://clue.io/data/CMap2020#LINCS2020)
+
+- [ChEMBL Database](https://www.ebi.ac.uk/chembl/)
+
+- [EXCAPES Database](https://solr.ideaconsult.net/search/excape/)
+
+## Citing GexMolGen
+```bibtex
+@article{cheng2024gexmolgen,
+    author = {Cheng, Jiabei and Pan, Xiaoyong and Fang, Yi and Yang, Kaiyuan and Xue, Yiming and Yan, Qingran and Yuan, Ye},
+    title = {GexMolGen: cross-modal generation of hit-like molecules via large language model encoding of gene expression signatures},
+    journal = {Briefings in Bioinformatics},
+    volume = {25},
+    number = {6},
+    pages = {bbae525},
+    year = {2024},
+    month = {10},
+    issn = {1477-4054},
+    doi = {10.1093/bib/bbae525},
+    url = {https://doi.org/10.1093/bib/bbae525}
+}
+```
 
 ## Acknowledgements
 Finally, we would like to express our deepest gratitude to the authors of [*scGPT*](https://github.com/bowang-lab/scGPT) and [*hierVAE*](https://github.com/wengong-jin/hgraph2graph). 
 They have not only created excellent work but also made it open source for the benefit of researchers worldwide.
 
-No matter what questions you have, feel free to contact us via email or raise issues on GitHub. We firmly believe that different perspectives helps us develop better tools. 😉
+No matter what questions you have, feel free to contact us via email or raise issues on GitHub. We firmly believe that different perspectives help us develop better tools. 😉
+
