@@ -14,7 +14,7 @@ To simplify the process, we use pre-trained models for the encoders in steps 1,
 namely [*scGPT*](https://github.com/bowang-lab/scGPT) and [*hierVAE*](https://github.com/wengong-jin/hgraph2graph). 
 Step 2 is introduced to align the genetic and molecular modalities, while step 3 facilitates the transformation from genetic embeddings to molecular ones. These stages are inspired by [*DALL.E*](https://github.com/openai/dall-e) - simple yet effective! Hahaha..
 
-GexMolGen is an attempt to explore the chemical and biological relationships in the drug discovery process using large language models and multimodal techniques. It has high effectiveness in generating results, flexible input, and strong controllability. For further details, please refer to **our paper** [**GexMolGen: Cross-modal Generation of Hit-like Molecules via Large Language Model Encoding of Gene Expression Signatures**](https://www.biorxiv.org/content/10.1101/2023.11.11.566725v4).
+GexMolGen is an attempt to explore the chemical and biological relationships in the drug discovery process using large language models and multimodal techniques. It has high effectiveness in generating results, flexible input, and strong controllability. For further details, please refer to **our paper** [**GexMolGen: Cross-modal Generation of Hit-like Molecules via Large Language Model Encoding of Gene Expression Signatures**](https://academic.oup.com/bib/article/25/6/bbae525/7845937).
 
 ## Installation
 Before running `pip install -r requirements.txt`, we strongly advise that you individually install `RDKit, FlashAttention, PyTorch` on your device. Here are some configurations from our device for reference:
