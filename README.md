@@ -17,7 +17,7 @@ Step 2 is introduced to align the genetic and molecular modalities, while step 3
 GexMolGen is an attempt to explore the chemical and biological relationships in the drug discovery process using large language models and multimodal techniques. It has high effectiveness in generating results, flexible input, and strong controllability. For further details, please refer to **our paper** [**GexMolGen: Cross-modal Generation of Hit-like Molecules via Large Language Model Encoding of Gene Expression Signatures**](https://doi.org/10.1093/bib/bbae525).
 
 ## Installation
-Before running `pip install -r requirements.txt`, we strongly advise that you individually install `RDKit, FlashAttention, PyTorch` on your device. Here are some configurations from our device for reference:
+We strongly advise that you individually install `RDKit, FlashAttention, PyTorch` on your device. Here are some configurations from our device for reference:
 
 - CUDA == 11.7
 - Python == 3.8
