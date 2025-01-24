@@ -69,17 +69,23 @@ The raw data can be downloaded from the following sources:
 
 - [EXCAPES Database](https://solr.ideaconsult.net/search/excape/)
 
-## Citing GenoHoption
+## Citing GexMolGen
 ```bibtex
-@INPROCEEDINGS{10822153,
-  author={Cheng, Jiabei and Li, Jiachen and Yang, Kaiyuan and Shen, Hongbin and Yuan, Ye},
-  booktitle={2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, 
-  title={GenoHoption: Bridging Gene Network Graphs and Single-Cell Foundation Models}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1453-1456},
-  keywords={Bridges;Sequential analysis;Foundation models;Biological system modeling;Message passing;Computational modeling;Perturbation methods;Predictive models;Genetics;Periodic structures;Single-cell Foundation Models;Gene Network Graphs;Graph Diffusion},
-  doi={10.1109/BIBM62325.2024.10822153}}
+@article{10.1093/bib/bbae525,
+    author = {Cheng, Jiabei and Pan, Xiaoyong and Fang, Yi and Yang, Kaiyuan and Xue, Yiming and Yan, Qingran and Yuan, Ye},
+    title = {GexMolGen: cross-modal generation of hit-like molecules via large language model encoding of gene expression signatures},
+    journal = {Briefings in Bioinformatics},
+    volume = {25},
+    number = {6},
+    pages = {bbae525},
+    year = {2024},
+    month = {10},
+    issn = {1477-4054},
+    doi = {10.1093/bib/bbae525},
+}
 ```
+## Acknowledgements
+Finally, we would like to express our deepest gratitude to the authors of [*scGPT*](https://github.com/bowang-lab/scGPT) and [*hierVAE*](https://github.com/wengong-jin/hgraph2graph). 
+They have not only created excellent work but also made it open source for the benefit of researchers worldwide.
 
+No matter what questions you have, feel free to contact us via email or raise issues on GitHub. We firmly believe that different perspectives help us develop better tools. 😉
