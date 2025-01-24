@@ -69,7 +69,7 @@ The raw data can be downloaded from the following sources:
 
 - [EXCAPES Database](https://solr.ideaconsult.net/search/excape/)
 
-## Citing GexMolGen
+## Citing GenoHoption
 ```bibtex
 @INPROCEEDINGS{10822153,
   author={Cheng, Jiabei and Li, Jiachen and Yang, Kaiyuan and Shen, Hongbin and Yuan, Ye},
@@ -82,10 +82,4 @@ The raw data can be downloaded from the following sources:
   keywords={Bridges;Sequential analysis;Foundation models;Biological system modeling;Message passing;Computational modeling;Perturbation methods;Predictive models;Genetics;Periodic structures;Single-cell Foundation Models;Gene Network Graphs;Graph Diffusion},
   doi={10.1109/BIBM62325.2024.10822153}}
 ```
-
-## Acknowledgements
-Finally, we would like to express our deepest gratitude to the authors of [*scGPT*](https://github.com/bowang-lab/scGPT) and [*hierVAE*](https://github.com/wengong-jin/hgraph2graph). 
-They have not only created excellent work but also made it open source for the benefit of researchers worldwide.
-
-No matter what questions you have, feel free to contact us via email or raise issues on GitHub. We firmly believe that different perspectives help us develop better tools. 😉
 
