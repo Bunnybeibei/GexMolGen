@@ -61,6 +61,8 @@ You can find the curated data at the following link:
 
 - [Curated Data](https://zenodo.org/records/11100665?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTcxNDYyNzUzOSwiZXhwIjoxNzk4Njc1MTk5fQ.eyJpZCI6IjM3ZmFkNGU4LWViMDYtNGNkNy1iOTc4LWI0ZTBkMDk2OWI0YyIsImRhdGEiOnt9LCJyYW5kb20iOiJhOGJjZDM5NWFkY2ZiNDAwNjAzYzIwMTg2ODNjYWI2NCJ9.dADyS-0PBsFKr_z1yDdcDnoGoY5PFOSbnYtt6aIz4RLoNxykoIQffAlzQDPbFgqnZJmp7PmjNXPCXHkDMuZHuA).
 
+Training data has been updated at this [link](https://drive.google.com/file/d/1_Ia7sitaCh68lJK7EtMI49tRnPfP9tfw/view?usp=drive_link). (Issues #4)
+
 The raw data can be downloaded from the following sources:
 
 - [CLUE Data](https://clue.io/data/CMap2020#LINCS2020)
