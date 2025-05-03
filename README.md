@@ -71,6 +71,9 @@ The raw data can be downloaded from the following sources:
 
 - [EXCAPES Database](https://solr.ideaconsult.net/search/excape/)
 
+## Supplementary Tables
+We have uploaded the supplementary tables to the folder in the main branch.
+
 ## Citing GexMolGen
 ```bibtex
 @article{10.1093/bib/bbae525,
